@@ -6,6 +6,7 @@ const optimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const miniCssExtractPlugin = require("mini-css-extract-plugin");
 const chokidar = require('chokidar');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
+const GoogleFontsPlugin = require('google-fonts-plugin');
 const {
     CleanWebpackPlugin
 } = require('clean-webpack-plugin');
@@ -181,6 +182,6 @@ module.exports = ({
         performance: {
             maxEntrypointSize: 5120000,
             maxAssetSize: 5120000
-        }
+        },
     }
 }

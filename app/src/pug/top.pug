@@ -1,0 +1,36 @@
+.top
+    svg.moon
+        defs
+            mask#moonshadow
+                rect(width="100%" height="100%" fill="#fff")
+                circle.shadow(cx=25 cy=25 r=25 fill="#000")
+        circle.moonlight(cx=25 cy=25 r=25 mask="url(#moonshadow)")
+    .cloud
+        .rain
+        .rain.rain2
+        .rain.rain3
+    svg.temsvg
+        text(x=0 y=100) 26°
+        circle(cx=0 cy=100 r=3)
+        text(x=70 y=80) 27°
+        circle(cx=70 cy=80 r=3)
+        text(x=140 y=60) 28°
+        circle(cx=140 cy=60 r=3)
+        text(x=210 y=70) 27.8°
+        circle(cx=210 cy=70 r=3)
+        text(x=280 y=100) 26.3°
+        circle(cx=280 cy=100 r=3)
+        text(x=350 y=110) 26°
+        circle(cx=350 cy=110 r=3)
+        text(x=420 y=80) 25.8°
+        circle(cx=420 cy=80 r=3)
+        text(x=490 y=80) 30°
+        circle(cx=490 cy=90 r=3)
+        text(x=560 y=560) 27°
+        circle(cx=560 cy=560 r=3)
+        polyline(points="0,100 70,80 140,60 210,70 280,100 350,110 420,80 490,90 560,90 630,100")
+    .text_area
+        .temperature 26°
+        .infos
+            .address 台北市中正區
+            .time 星期三 上午7:00

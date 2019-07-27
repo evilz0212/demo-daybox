@@ -1,0 +1,22 @@
+.rain
+    +size(2px, 10px)
+    background-color: $color_white
+    position: absolute
+    left: 45px
+    bottom: 15px
+    animation: raindrop 1s infinite linear
+.rain2
+    left: 70px
+    bottom: 20px
+    animation-delay: -0.4s
+.rain3
+    left: 30px
+    bottom: 20px
+    animation-delay: -0.7s
+    
+    @keyframes raindrop
+        0%
+            transform: translateY(0px)
+        100%
+            transform: translateY(50px)
+            opacity: 0
