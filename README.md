@@ -21,10 +21,10 @@
 1. 練習 Webapck 建置專案，客製化打包配置
 2. 練習 CSS animation 基礎動畫效果
 
-#### Detail
+#### Detail
 -   Pug：預處理模板語言
 -   Sass：預處理樣式語言
--   Webpack：自訂 config 設定
+-   Webpack：自訂 config 設定
     -  輸出輸入 (path, hash, env)
     -  loader (babel, sass, postcss, autoprefixer, mini-css, pug, file, image)
     -  壓縮 (purify-css, optimize-css)
