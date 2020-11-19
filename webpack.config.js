@@ -174,9 +174,7 @@ module.exports = ({
 				},
 			}),
 			new miniCssExtractPlugin({
-				filename: devMode
-					? "[name].css"
-					: "[name].[contenthash:8].min.css",
+				filename: devMode ? "[name].css" : "[name].min.css",
 			}),
 			new PurifyCSSPlugin({
 				paths: glob.sync(path.join(__dirname, "app/**/*.html")),
