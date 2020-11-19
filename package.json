@@ -18,7 +18,7 @@
 		"watch": "webpack-dev-server -d --watch",
 		"dev": "webpack -d",
 		"build": "NODE_ENV=production webpack -p",
-		"git-pages": "webpack -p && git checkout -b temp && git add -f app/dist && git commit --allow-empty -m 'Initial dist subtree commit' && git subtree split --rejoin --prefix app/dist -b gh-pages && git push -f origin gh-pages && git checkout master && git branch -D gh-pages temp"
+		"git-pages": "NODE_ENV=production webpack -p && git checkout -b temp && git add -f app/dist && git commit --allow-empty -m 'Initial dist subtree commit' && git subtree split --rejoin --prefix app/dist -b gh-pages && git push -f origin gh-pages && git checkout master && git branch -D gh-pages temp"
 	},
 	"dependencies": {},
 	"devDependencies": {
