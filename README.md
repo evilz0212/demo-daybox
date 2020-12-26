@@ -17,6 +17,7 @@
 ![DayBox](./app/public/preview.png)
 
 ## Overview
+> CSS動畫呈現一週天氣預報圖示、切換顯示當日溫度
 #### Target
 1. 練習 Webapck 建置專案，客製化打包配置
 2. 練習 CSS animation 基礎動畫效果
